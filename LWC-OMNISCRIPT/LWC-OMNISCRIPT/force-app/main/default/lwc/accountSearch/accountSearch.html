@@ -1,0 +1,7 @@
+<template>
+    <lightning-input label="Search Text" value={searchText} onchange={handleInputChange}></lightning-input>
+    <lightning-button label="Search" onclick={handleSearch} disabled={isButtonDisabled}></lightning-button>
+    <!-- Data table to display search results -->
+    <lightning-datatable data={accountData} columns={columns} key-field="Id" selected-rows={selectedRows}></lightning-datatable>
+    <lightning-button label="Select Records" onclick={handleSelectRecords} disabled={isSelectButtonDisabled}></lightning-button>
+</template>

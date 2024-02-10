@@ -1,0 +1,8 @@
+/* parentComponent.css */
+:host {
+    display: block;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+}
